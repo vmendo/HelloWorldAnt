@@ -7,6 +7,7 @@ En ese repositorio vamos a:
 
 # Creamos el proyecto en el filesystem
 
+```
 training@ubuntu-devops:~/devops/repomartes$ more src/oata/HelloWorld.java
 package oata;
 
@@ -16,10 +17,12 @@ public class HelloWorld {
     }
 }
 training@ubuntu-devops:~/devops/repomartes$
+```
 
 # Probamos
-
+```
 training@ubuntu-devops:~/devops/repomartes$ mkdir -p  build/classes
 training@ubuntu-devops:~/devops/repomartes$ javac -sourcepath src -d build/classes src/oata/HelloWorld.java
 training@ubuntu-devops:~/devops/repomartes$ java -cp build/classes oata.HelloWorld
 Hello World
+```
